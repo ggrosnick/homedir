@@ -1,11 +1,11 @@
 complete -c -f command sudo
 complete -W "$(sed -e 's/^  *//' -e '/^#/d' -e 's/[, ].*//' -e '/\[/d' ~/.ssh/known_hosts | sort -u)" ssh
 
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+/Users/ggrosnick/Library/Python/2.7/lib/python/site-packages/powerline/powerline/scripts/powerline-daemon -q
+POWERLINE_PATH=~/Library/Python/2.7/lib/python/site-packages/powerline
+source $POWERLINE_PATH/bindings/bash/powerline.sh
 
-export PATH=$PATH:$HOME/.vim/bundle/powerline:$HOME/.vim/bundle/powerline/scripts:$HOME/.keychain
-export PYTHONPATH=$HOME/.vim/bundle/powerline/:$PYTHONPATH
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. ~ggrosnick/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH

@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/ggrosnick/Documents/puppet/sshd/manifests'
-let g:netrw_dirhist_2='/Users/ggrosnick/Documents/puppet/roles/manifests'
-let g:netrw_dirhist_3='/Users/ggrosnick/Documents/puppetcode/control-repo/hieradata'
-let g:netrw_dirhist_4='/Users/ggrosnick/Documents/puppetcode/profiles/manifests'
-let g:netrw_dirhist_5='/Users/ggrosnick/Documents/puppetcode/control-repo'
-let g:netrw_dirhist_6='/Users/ggrosnick/Documents/puppetcode/control-repo/hieradata'
-let g:netrw_dirhist_7='/Users/ggrosnick/.vim/bundle/powerline/.git'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/ggrosnick/Library/Python/2.7/lib/python/site-packages/powerline/powerline/powerline/bindings/vim/plugin'
+let g:netrw_dirhist_2='/Users/ggrosnick/.vim/plugin'
+let g:netrw_dirhist_3='/Users/ggrosnick/Library/Python/2.7/lib/python/site-packages/powerline/config_files'
+let g:netrw_dirhist_4='/Users/ggrosnick/Library/Python/2.7/lib/python/site-packages/powerline/config_files/themes'
